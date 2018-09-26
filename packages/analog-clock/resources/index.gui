@@ -1,0 +1,12 @@
+<svg viewport-fill="fb-peach">
+    <g id="hours" class="clock-hour-hand" transform="translate(50%,50%)">
+        <line x1="0" y1="0" x2="0" y2="-20%" fill="fb-extra-dark-gray"/>
+    </g>
+    <g id="minutes" class="clock-minute-hand" transform="translate(50%,50%)">
+        <line x1="0" y1="0" x2="0" y2="-35%" fill="fb-dark-gray"/>
+    </g>
+    <g id="seconds" class="clock-second-hand" transform="translate(50%,50%)">
+        <line x1="0" y1="0" x2="0" y2="-45%" fill="fb-magenta"/>
+    </g>
+    <circle cx="50%" cy="50%" r="10" fill="fb-black"/>
+</svg>

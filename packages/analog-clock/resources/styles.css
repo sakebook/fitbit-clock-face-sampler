@@ -1,0 +1,15 @@
+#background {
+  viewport-fill: fb-peach;
+}
+
+.clock-hour-hand line {
+  stroke-width: 12;
+}
+
+.clock-minute-hand line {
+  stroke-width: 6;
+}
+
+.clock-second-hand line {
+  stroke-width: 3;
+}
