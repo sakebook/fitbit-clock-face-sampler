@@ -1,4 +1,7 @@
 <svg viewport-fill="fb-peach">
+    <g id="minute_label_container" transform="translate(50%,50%)">
+        <use href="#minute_label_symbol_360_degree"/>
+    </g>
     <g id="hours" class="clock-hour-hand" transform="translate(50%,50%)">
         <line x1="0" y1="0" x2="0" y2="-20%" fill="fb-extra-dark-gray"/>
     </g>

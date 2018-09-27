@@ -13,3 +13,12 @@
 .clock-second-hand line {
   stroke-width: 3;
 }
+
+line.clock-minute-label {
+  fill: fb-extra-dark-gray;
+  stroke-width: 1;
+  x1: 0;
+  y1: -45%;
+  x2: 0;
+  y2: -48%;
+}

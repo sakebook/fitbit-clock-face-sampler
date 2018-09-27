@@ -26,12 +26,12 @@ function secondsToAngle(seconds) {
 function updateClock(evt) {
   const today = evt.date;
   const hours = today.getHours() % 12;
-  const mins = today.getMinutes();
-  const secs = today.getSeconds();
+  const minutes = today.getMinutes();
+  const seconds = today.getSeconds();
 
-  hourHand.groupTransform.rotate.angle = hoursToAngle(hours, mins);
-  minuteHand.groupTransform.rotate.angle = minutesToAngle(mins);
-  secondHand.groupTransform.rotate.angle = secondsToAngle(secs);
+  hourHand.groupTransform.rotate.angle = hoursToAngle(hours, minutes);
+  minuteHand.groupTransform.rotate.angle = minutesToAngle(minutes);
+  secondHand.groupTransform.rotate.angle = secondsToAngle(seconds);
 }
 
 clock.granularity = 'seconds';
