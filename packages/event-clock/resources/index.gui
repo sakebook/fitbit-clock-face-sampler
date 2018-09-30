@@ -1,0 +1,18 @@
+<svg>
+  <rect id="background"/>
+  <g id="clock-12-group" visibility="hidden">
+    <text id="clock-12" class="clock-text">12:34</text>
+    <text id="clock-12-am" text-anchor="middle" x="30%" width="50%" y="90%">AM</text>
+    <text id="clock-12-pm" text-anchor="middle" x="70%" width="50%" y="90%">PM</text>
+  </g>
+  <g id="clock-24-group">
+    <text id="clock-24" class="clock-text">12:34</text>
+  </g>
+
+  <use id="button-12" href="#square-button-toggle" fill="fb-indigo">
+    <set href="#text"  attributeName="text-buffer" to="12 HOUR" />
+  </use>
+  <use id="button-24" href="#square-button-toggle" value="1" x="50%" fill="fb-indigo">
+    <set href="#text"  attributeName="text-buffer" to="24 HOUR" />
+  </use>
+</svg>
