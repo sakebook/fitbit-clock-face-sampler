@@ -45,13 +45,13 @@ function applyFormat(lastFormat) {
   }
 }
 
-button24.onclick = function (evt) {
+button24.onclick = evt => {
   clock24group.style.visibility = 'visible';
   clock12group.style.visibility = 'hidden';
   file.saveData('24');
 };
 
-button12.onclick = function (evt) {
+button12.onclick = evt => {
   clock24group.style.visibility = 'hidden';
   clock12group.style.visibility = 'visible';
   file.saveData('12');
