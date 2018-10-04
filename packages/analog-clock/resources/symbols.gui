@@ -2,54 +2,66 @@
     <defs>
         <symbol id="minute_label_symbol">
             <g id="minute_label_container">
-                <line class="clock-minute-label" />
+                <line class="clock-minute-label"/>
             </g>
         </symbol>
         <symbol id="minute_label_symbol_30_degree">
             <g id="minute_label_container">
                 <use href="#minute_label_symbol">
-                    <set href="minute_label_container" attributeName="transform" to="rotate(0)"/>
+                    <set href="minute_label_container"
+                         attributeName="transform" to="rotate(0)"/>
                 </use>
                 <use href="#minute_label_symbol">
-                    <set href="minute_label_container" attributeName="transform" to="rotate(6)"/>
+                    <set href="minute_label_container"
+                         attributeName="transform" to="rotate(6)"/>
                 </use>
                 <use href="#minute_label_symbol">
-                    <set href="minute_label_container" attributeName="transform" to="rotate(12)"/>
+                    <set href="minute_label_container"
+                         attributeName="transform" to="rotate(12)"/>
                 </use>
                 <use href="#minute_label_symbol">
-                    <set href="minute_label_container" attributeName="transform" to="rotate(18)"/>
+                    <set href="minute_label_container"
+                         attributeName="transform" to="rotate(18)"/>
                 </use>
                 <use href="#minute_label_symbol">
-                    <set href="minute_label_container" attributeName="transform" to="rotate(24)"/>
+                    <set href="minute_label_container"
+                         attributeName="transform" to="rotate(24)"/>
                 </use>
             </g>
         </symbol>
         <symbol id="minute_label_symbol_90_degree">
             <g id="minute_label_container">
                 <use href="#minute_label_symbol_30_degree">
-                    <set href="minute_label_container" attributeName="transform" to="rotate(0)"/>
+                    <set href="minute_label_container"
+                         attributeName="transform" to="rotate(0)"/>
                 </use>
                 <use href="#minute_label_symbol_30_degree">
-                    <set href="minute_label_container" attributeName="transform" to="rotate(30)"/>
+                    <set href="minute_label_container"
+                         attributeName="transform" to="rotate(30)"/>
                 </use>
                 <use href="#minute_label_symbol_30_degree">
-                    <set href="minute_label_container" attributeName="transform" to="rotate(60)"/>
+                    <set href="minute_label_container"
+                         attributeName="transform" to="rotate(60)"/>
                 </use>
             </g>
         </symbol>
         <symbol id="minute_label_symbol_360_degree">
             <g id="minute_label_container">
                 <use href="#minute_label_symbol_90_degree">
-                    <set href="minute_label_container" attributeName="transform" to="rotate(0)"/>
+                    <set href="minute_label_container"
+                         attributeName="transform" to="rotate(0)"/>
                 </use>
                 <use href="#minute_label_symbol_90_degree">
-                    <set href="minute_label_container" attributeName="transform" to="rotate(90)"/>
+                    <set href="minute_label_container"
+                         attributeName="transform" to="rotate(90)"/>
                 </use>
                 <use href="#minute_label_symbol_90_degree">
-                    <set href="minute_label_container" attributeName="transform" to="rotate(180)"/>
+                    <set href="minute_label_container"
+                         attributeName="transform" to="rotate(180)"/>
                 </use>
                 <use href="#minute_label_symbol_90_degree">
-                    <set href="minute_label_container" attributeName="transform" to="rotate(270)"/>
+                    <set href="minute_label_container"
+                         attributeName="transform" to="rotate(270)"/>
                 </use>
             </g>
         </symbol>
