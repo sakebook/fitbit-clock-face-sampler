@@ -37,3 +37,7 @@ SOME_PACKAGE$ npx fitbit
 fitbit$ build
 fitbit$ install
 ```
+
+## LICENSE
+
+MIT
