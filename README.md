@@ -13,7 +13,7 @@
 $ git clone https://github.com/sakebook/fitbit-clock-face-sampler
 $ npm install --global lerna
 $ cd fitbit-clock-face-sampler
-fitbit-clock-face-sampler$ lerna bootstrap
+fitbit-clock-face-sampler$ lerna bootstrap --hoist
 ```
 
 ### If you do not use lerna
