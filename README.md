@@ -3,8 +3,7 @@
 
 ## Requirement
 - Node 8.0 +
-- lerna (Optional)
-
+- (Optional) lerna 3.0.0 +
 
 ## Setup
 ### Use lerna
